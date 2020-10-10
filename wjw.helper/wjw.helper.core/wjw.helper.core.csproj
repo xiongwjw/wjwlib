@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>7.2</LangVersion>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <AssemblyName>wjw.helper</AssemblyName>
+    <RootNamespace>wjw.helper</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>D:\Study\github\wjw.lib\wjw.helper\output\wjw.helper.core</OutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>D:\Study\github\wjw.lib\wjw.helper\output\wjw.helper.core</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Convert\**" />
+    <EmbeddedResource Remove="Convert\**" />
+    <None Remove="Convert\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Email\" />
+    <Folder Include="Json\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="System.Drawing.Common" Version="4.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

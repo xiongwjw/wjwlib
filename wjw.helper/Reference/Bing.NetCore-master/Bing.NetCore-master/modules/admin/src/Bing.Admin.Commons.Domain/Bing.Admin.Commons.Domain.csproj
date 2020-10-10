@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Bing.Admin.Domain.Shared\Bing.Admin.Domain.Shared.csproj" />
+    <ProjectReference Include="..\Bing.Admin.Infrastructure\Bing.Admin.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Models/Area.*.cs">
+      <DependentUpon>Area.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Models/Dictionary.*.cs">
+      <DependentUpon>Dictionary.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Models/File.*.cs">
+      <DependentUpon>File.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Models/UserInfo.*.cs">
+      <DependentUpon>UserInfo.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+</Project>

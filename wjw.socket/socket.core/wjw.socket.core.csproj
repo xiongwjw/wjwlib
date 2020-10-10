@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">  
+  <PropertyGroup>    
+    <Title>socket.core</Title>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors></Authors>
+    <Company></Company>
+    <Description>This is a socket framework based on C # net standard2.0 write, can be used for .NET Framework / dotnet core assembly, can run in window (IOCP) / linux (epoll) .Use asynchronous connection, asynchronous send, asynchronous receive, Performance burst tables, and pass the stress test.</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageProjectUrl></PackageProjectUrl>
+    <PackageLicenseUrl></PackageLicenseUrl>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageTags></PackageTags>
+    <Copyright></Copyright>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <RepositoryType>socket.core</RepositoryType>
+    <Version>1.0.14</Version>
+    <RepositoryUrl></RepositoryUrl>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <AssemblyName>wjw.socket</AssemblyName>
+    <RootNamespace>wjw.socket</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile></DocumentationFile>
+    <OutputPath>D:\Study\github\wjw.lib\wjw.socket\output\socket.core</OutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile></DocumentationFile>
+    <OutputPath>D:\Study\github\wjw.lib\wjw.socket\output\socket.core</OutputPath>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+</Project>

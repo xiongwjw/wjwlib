@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netcoreapp2.2\Bing.Admin.Infrastructure.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DotNetCore.CAP.MySql" Version="2.6.0" />
+    <PackageReference Include="DotNetCore.CAP.RabbitMQ" Version="2.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\framework\src\Bing.AspNetCore\Bing.AspNetCore.csproj" />
+    <ProjectReference Include="..\..\..\..\framework\src\Bing.AutoMapper\Bing.AutoMapper.csproj" />
+    <ProjectReference Include="..\..\..\..\framework\src\Bing.Biz\Bing.Biz.csproj" />
+    <ProjectReference Include="..\..\..\..\framework\src\Bing.Caching.CSRedis\Bing.Caching.CSRedis.csproj" />
+    <ProjectReference Include="..\..\..\..\framework\src\Bing.Events\Bing.Events.csproj" />
+    <ProjectReference Include="..\..\..\..\framework\src\Bing.Logs.NLog\Bing.Logs.NLog.csproj" />
+    <ProjectReference Include="..\..\..\..\framework\src\Bing.Permissions\Bing.Permissions.csproj" />
+    <ProjectReference Include="..\..\..\..\framework\src\Bing.Webs\Bing.Webs.csproj" />
+  </ItemGroup>
+
+</Project>

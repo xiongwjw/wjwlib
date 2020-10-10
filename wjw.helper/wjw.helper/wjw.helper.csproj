@@ -1,0 +1,1199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <LangVersion>7.2</LangVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0A9704F9-7864-45AF-BFA7-E09F2B30A29F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>wjw.helper</RootNamespace>
+    <AssemblyName>wjw.helper</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\output\wjw.helper.framework\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\output\wjw.helper.framework\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\wjw.helper.core\Algorithms\ISort.cs">
+      <Link>Algorithms\ISort.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Algorithms\MathUtil.cs">
+      <Link>Algorithms\MathUtil.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Algorithms\Sorts\BubbleSort.cs">
+      <Link>Algorithms\Sorts\BubbleSort.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Algorithms\Sorts\InsertionSort.cs">
+      <Link>Algorithms\Sorts\InsertionSort.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Algorithms\Sorts\SelectionSort.cs">
+      <Link>Algorithms\Sorts\SelectionSort.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Algorithms\Trees\BuildChildrenContext`.cs">
+      <Link>Algorithms\Trees\BuildChildrenContext`.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Algorithms\Trees\BuildRootContext.cs">
+      <Link>Algorithms\Trees\BuildRootContext.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Algorithms\Trees\TreeBuilder.cs">
+      <Link>Algorithms\Trees\TreeBuilder.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Algorithms\Trees\TreeNode.cs">
+      <Link>Algorithms\Trees\TreeNode.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Algorithms\Trees\TreeNodeExtensions.cs">
+      <Link>Algorithms\Trees\TreeNodeExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Algorithms\Trees\TreeNode`.cs">
+      <Link>Algorithms\Trees\TreeNode`.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Base64\Base64Helper.cs">
+      <Link>Base64\Base64Helper.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Cmd\ProcessHelper.cs">
+      <Link>Cmd\ProcessHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Common\AmountUnitConv.cs">
+      <Link>Common\AmountUnitConv.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Common\Check.cs">
+      <Link>Common\Check.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Common\ColorConverter.cs">
+      <Link>Common\ColorConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Common\Common.cs">
+      <Link>Common\Common.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Common\Const.cs">
+      <Link>Common\Const.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Common\Conv.cs">
+      <Link>Common\Conv.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Common\DataCache.cs">
+      <Link>Common\DataCache.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Common\DisposeAction.cs">
+      <Link>Common\DisposeAction.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Common\Enum.cs">
+      <Link>Common\Enum.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Common\Format.cs">
+      <Link>Common\Format.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Common\GZip.cs">
+      <Link>Common\GZip.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Common\INullObject.cs">
+      <Link>Common\INullObject.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Common\Item.cs">
+      <Link>Common\Item.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Common\NameValue.cs">
+      <Link>Common\NameValue.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Common\NullDisposable.cs">
+      <Link>Common\NullDisposable.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Common\Operator.cs">
+      <Link>Common\Operator.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Common\Regexs.cs">
+      <Link>Common\Regexs.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Common\Singleton.cs">
+      <Link>Common\Singleton.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Common\Sys.cs">
+      <Link>Common\Sys.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Common\TypeClass.cs">
+      <Link>Common\TypeClass.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Common\Url.cs">
+      <Link>Common\Url.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Common\Valid.cs">
+      <Link>Common\Valid.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Conversions\Base32Converter.cs">
+      <Link>Conversions\Base32Converter.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Conversions\Base64Converter.cs">
+      <Link>Conversions\Base64Converter.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Conversions\Scale\BinaryConverter.cs">
+      <Link>Conversions\Scale\BinaryConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Conversions\Scale\ByteConverter.cs">
+      <Link>Conversions\Scale\ByteConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Conversions\Scale\DecimalismConverter.cs">
+      <Link>Conversions\Scale\DecimalismConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Conversions\Scale\HexadecimalConverter.cs">
+      <Link>Conversions\Scale\HexadecimalConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Conversions\TryConvert.cs">
+      <Link>Conversions\TryConvert.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Conversions\TypeConverter.cs">
+      <Link>Conversions\TypeConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\DateTimes\DateRangeEnum.cs">
+      <Link>DateTimes\DateRangeEnum.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\DateTimes\DateTimeHelper.cs">
+      <Link>DateTimes\DateTimeHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\DateTimes\DateTimeRange.cs">
+      <Link>DateTimes\DateTimeRange.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\DateTimes\Extensions\DateTimeExtensions.cs">
+      <Link>DateTimes\Extensions\DateTimeExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\DateTimes\Extensions\Extensions.DateTime.cs">
+      <Link>DateTimes\Extensions\Extensions.DateTime.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\DateTimes\Time.cs">
+      <Link>DateTimes\Time.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\DateTimes\TimeStamp.cs">
+      <Link>DateTimes\TimeStamp.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\DateTimes\TimeStamp.UnixTimeStamp.cs">
+      <Link>DateTimes\TimeStamp.UnixTimeStamp.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\DateTimes\TimeStampFactory.cs">
+      <Link>DateTimes\TimeStampFactory.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\DateTimes\UnixTime.cs">
+      <Link>DateTimes\UnixTime.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Email\EmailService.cs">
+      <Link>Email\EmailService.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Email\EmailServiceSettings.cs">
+      <Link>Email\EmailServiceSettings.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Email\IEmailService.cs">
+      <Link>Email\IEmailService.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Email\MailInfo.cs">
+      <Link>Email\MailInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Encrypts\AESCrypt.cs">
+      <Link>Encrypts\AESCrypt.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Encrypts\Des.cs">
+      <Link>Encrypts\Des.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Encrypts\Encryptor.cs">
+      <Link>Encrypts\Encryptor.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Encrypts\HmacSHA1Crypt.cs">
+      <Link>Encrypts\HmacSHA1Crypt.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Encrypts\Md5.cs">
+      <Link>Encrypts\Md5.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Encrypts\MD5Crypt.cs">
+      <Link>Encrypts\MD5Crypt.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Encrypts\RSA.cs">
+      <Link>Encrypts\RSA.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Encrypts\RSACrypt.cs">
+      <Link>Encrypts\RSACrypt.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Encrypts\RsaHelper.cs">
+      <Link>Encrypts\RsaHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Encrypts\SHA1Crypt.cs">
+      <Link>Encrypts\SHA1Crypt.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Encrypts\TripleDES.cs">
+      <Link>Encrypts\TripleDES.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Exceptions\ExceptionHelper.cs">
+      <Link>Exceptions\ExceptionHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Exceptions\ExceptionUtil.cs">
+      <Link>Exceptions\ExceptionUtil.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Exceptions\Extensions\Extensions.Exception.cs">
+      <Link>Exceptions\Extensions\Extensions.Exception.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Exceptions\Extensions\Extensions.Try.cs">
+      <Link>Exceptions\Extensions\Extensions.Try.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Exceptions\JceException.cs">
+      <Link>Exceptions\JceException.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Exceptions\Try.cs">
+      <Link>Exceptions\Try.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Exceptions\Try`1.cs">
+      <Link>Exceptions\Try`1.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Exceptions\Try`1.Failure.cs">
+      <Link>Exceptions\Try`1.Failure.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Exceptions\Try`1.Success.cs">
+      <Link>Exceptions\Try`1.Success.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Exceptions\Warning.cs">
+      <Link>Exceptions\Warning.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Expressions\Extensions\Extensions.Expressions.PropertyInfo.cs">
+      <Link>Expressions\Extensions\Extensions.Expressions.PropertyInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Expressions\Extensions\Extensions.Expressions.PropertyInfo.Get.cs">
+      <Link>Expressions\Extensions\Extensions.Expressions.PropertyInfo.Get.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Expressions\Lambdas.cs">
+      <Link>Expressions\Lambdas.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Expressions\ParameterRebinder.cs">
+      <Link>Expressions\ParameterRebinder.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Expressions\PredicateExpressionBuilder.cs">
+      <Link>Expressions\PredicateExpressionBuilder.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\Bases\ArrayExtensions.cs">
+      <Link>Extensions\Bases\ArrayExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\Bases\BinaryMode.cs">
+      <Link>Extensions\Bases\BinaryMode.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\Bases\BooleanExtensions.cs">
+      <Link>Extensions\Bases\BooleanExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\Bases\ByteExtensions.cs">
+      <Link>Extensions\Bases\ByteExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\Bases\CharExtensions.cs">
+      <Link>Extensions\Bases\CharExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\Bases\ComparsionTemplateOptions.cs">
+      <Link>Extensions\Bases\ComparsionTemplateOptions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\Bases\DateTimeExtensions.cs">
+      <Link>Extensions\Bases\DateTimeExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\Bases\DecimalExtensions.cs">
+      <Link>Extensions\Bases\DecimalExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\Bases\DoubleExtensions.cs">
+      <Link>Extensions\Bases\DoubleExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\Bases\EnumExtensions.cs">
+      <Link>Extensions\Bases\EnumExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\Bases\FloatExtensions.cs">
+      <Link>Extensions\Bases\FloatExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\Bases\IntExtensions.cs">
+      <Link>Extensions\Bases\IntExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\Bases\LongExtensions.cs">
+      <Link>Extensions\Bases\LongExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\Bases\ObjectExtensions.cs">
+      <Link>Extensions\Bases\ObjectExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\Bases\TypeExtensions.cs">
+      <Link>Extensions\Bases\TypeExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\BitmapExtensions.cs">
+      <Link>Extensions\BitmapExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\Collections\Array\ArrayExtensions.cs">
+      <Link>Extensions\Collections\Array\ArrayExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\Collections\Array\Extensions.Array.BinarySearch.cs">
+      <Link>Extensions\Collections\Array\Extensions.Array.BinarySearch.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\Collections\Array\Extensions.Array.Buffer.cs">
+      <Link>Extensions\Collections\Array\Extensions.Array.Buffer.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\Collections\Array\Extensions.Array.Clear.cs">
+      <Link>Extensions\Collections\Array\Extensions.Array.Clear.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\Collections\Array\Extensions.Array.Copy.cs">
+      <Link>Extensions\Collections\Array\Extensions.Array.Copy.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\Collections\Array\Extensions.Array.Find.cs">
+      <Link>Extensions\Collections\Array\Extensions.Array.Find.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\Collections\Array\Extensions.Array.Index.cs">
+      <Link>Extensions\Collections\Array\Extensions.Array.Index.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\Collections\Array\Extensions.Array.Reverse.cs">
+      <Link>Extensions\Collections\Array\Extensions.Array.Reverse.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\Collections\Array\Extensions.Array.Sort.cs">
+      <Link>Extensions\Collections\Array\Extensions.Array.Sort.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\Collections\ByteArrayExtensions.cs">
+      <Link>Extensions\Collections\ByteArrayExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\Collections\CollectionExtensions.cs">
+      <Link>Extensions\Collections\CollectionExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\Collections\DictionaryExtensions.cs">
+      <Link>Extensions\Collections\DictionaryExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\Collections\EnumerableExtensions.cs">
+      <Link>Extensions\Collections\EnumerableExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\Collections\ListExtensions.cs">
+      <Link>Extensions\Collections\ListExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\ColorExtensions.cs">
+      <Link>Extensions\ColorExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\Common\Extensions.Check.cs">
+      <Link>Extensions\Common\Extensions.Check.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\Common\Extensions.Common.cs">
+      <Link>Extensions\Common\Extensions.Common.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\Common\Extensions.Convert.cs">
+      <Link>Extensions\Common\Extensions.Convert.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\Common\Extensions.DateTime.cs">
+      <Link>Extensions\Common\Extensions.DateTime.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\Common\Extensions.Format.cs">
+      <Link>Extensions\Common\Extensions.Format.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\Common\Extensions.Lock.cs">
+      <Link>Extensions\Common\Extensions.Lock.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\Common\Extensions.Numeric.cs">
+      <Link>Extensions\Common\Extensions.Numeric.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\Common\Extensions.Reflection.cs">
+      <Link>Extensions\Common\Extensions.Reflection.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\Common\Extensions.Type.cs">
+      <Link>Extensions\Common\Extensions.Type.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\Common\Extensions.Validate.cs">
+      <Link>Extensions\Common\Extensions.Validate.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\ComparableExtensions.cs">
+      <Link>Extensions\ComparableExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\ComponentExtensions.cs">
+      <Link>Extensions\ComponentExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\ConcurrentBagExtensions.cs">
+      <Link>Extensions\ConcurrentBagExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\ConcurrentDictionaryExtensions.cs">
+      <Link>Extensions\ConcurrentDictionaryExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\ConstructorExtensions.cs">
+      <Link>Extensions\ConstructorExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\Datas\DataTableExtensions.cs">
+      <Link>Extensions\Datas\DataTableExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\DateTime\DateTime\GetAndSet\Extensions.DateTime.Get.cs">
+      <Link>Extensions\DateTime\DateTime\GetAndSet\Extensions.DateTime.Get.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\DateTime\DateTime\GetAndSet\Extensions.DateTime.Set.cs">
+      <Link>Extensions\DateTime\DateTime\GetAndSet\Extensions.DateTime.Set.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\DateTime\DayOfWeek\Convert\Extensions.DayOfWeek.Convert.cs">
+      <Link>Extensions\DateTime\DayOfWeek\Convert\Extensions.DayOfWeek.Convert.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\DirectoryInfoExtensions.cs">
+      <Link>Extensions\DirectoryInfoExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\EventHandlerExtenders.cs">
+      <Link>Extensions\EventHandlerExtenders.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\ExceptionExtensions.cs">
+      <Link>Extensions\ExceptionExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\ExpressionExtensions.cs">
+      <Link>Extensions\ExpressionExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\ExtensionMethodSetting.cs">
+      <Link>Extensions\ExtensionMethodSetting.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\Extensions.DateTime.cs">
+      <Link>Extensions\Extensions.DateTime.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\FileInfoExtensions.cs">
+      <Link>Extensions\FileInfoExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\IO\FileInfoExtensions.cs">
+      <Link>Extensions\IO\FileInfoExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\IO\MemoryStreamExtensions.cs">
+      <Link>Extensions\IO\MemoryStreamExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\LinqToXmlExtensions.cs">
+      <Link>Extensions\LinqToXmlExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\Linq\LambdaExpressionExtensions.cs">
+      <Link>Extensions\Linq\LambdaExpressionExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\Linq\QueryableExtensions.cs">
+      <Link>Extensions\Linq\QueryableExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\NameValueCollectionExtensions.cs">
+      <Link>Extensions\NameValueCollectionExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\Object\Copier\Extensions.Object.ExpressionCopier.cs">
+      <Link>Extensions\Object\Copier\Extensions.Object.ExpressionCopier.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\RandomExtensions.cs">
+      <Link>Extensions\RandomExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\ReaderWriterLockSlimExtensions.cs">
+      <Link>Extensions\ReaderWriterLockSlimExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\Reflections\AssemblyExtensions.cs">
+      <Link>Extensions\Reflections\AssemblyExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\Reflections\PropertyInfoExtensions.cs">
+      <Link>Extensions\Reflections\PropertyInfoExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\Security\ClaimsExtensions.cs">
+      <Link>Extensions\Security\ClaimsExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\Security\IdentityExtensions.cs">
+      <Link>Extensions\Security\IdentityExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\SocketExtensions.cs">
+      <Link>Extensions\SocketExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\StreamExtensions.cs">
+      <Link>Extensions\StreamExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\TextReaderExtensions.cs">
+      <Link>Extensions\TextReaderExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\ThreadExtensions.cs">
+      <Link>Extensions\ThreadExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\Threading\TaskExtensions.cs">
+      <Link>Extensions\Threading\TaskExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\Threading\TaskFactoryExtensions.cs">
+      <Link>Extensions\Threading\TaskFactoryExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\TryCatchExtensions.cs">
+      <Link>Extensions\TryCatchExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\ValueTypeExtensions.cs">
+      <Link>Extensions\ValueTypeExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\XmlSerializerExtensions.cs">
+      <Link>Extensions\XmlSerializerExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\Xml\XmlExtensions.cs">
+      <Link>Extensions\Xml\XmlExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Extensions\Xml\XmlNodeExtensions.cs">
+      <Link>Extensions\Xml\XmlNodeExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Ftp\FTPClient.cs">
+      <Link>Ftp\FTPClient.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Ftp\FTPHelper.cs">
+      <Link>Ftp\FTPHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Ftp\FTPOperater.cs">
+      <Link>Ftp\FTPOperater.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Http\HttpRequest.cs">
+      <Link>Http\HttpRequest.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Http\HttpRequestModel.cs">
+      <Link>Http\HttpRequestModel.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\IdGenerators\Abstractions\IGuidGenerator.cs">
+      <Link>IdGenerators\Abstractions\IGuidGenerator.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\IdGenerators\Abstractions\ILongGenerator.cs">
+      <Link>IdGenerators\Abstractions\ILongGenerator.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\IdGenerators\Abstractions\IStringGenerator.cs">
+      <Link>IdGenerators\Abstractions\IStringGenerator.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\IdGenerators\Core\ObjectIdGenerator.cs">
+      <Link>IdGenerators\Core\ObjectIdGenerator.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\IdGenerators\Core\SequentialGuidGenerator.cs">
+      <Link>IdGenerators\Core\SequentialGuidGenerator.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\IdGenerators\Core\SnowflakeIdGenerator.cs">
+      <Link>IdGenerators\Core\SnowflakeIdGenerator.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\IdGenerators\Core\TimestampIdGenerator.cs">
+      <Link>IdGenerators\Core\TimestampIdGenerator.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\IdGenerators\Id.cs">
+      <Link>IdGenerators\Id.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\IdGenerators\Ids\ObjectId.cs">
+      <Link>IdGenerators\Ids\ObjectId.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\IdGenerators\Ids\SnowflakeId.cs">
+      <Link>IdGenerators\Ids\SnowflakeId.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\IdGenerators\Ids\TimestampId.cs">
+      <Link>IdGenerators\Ids\TimestampId.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\IdGenerators\IIdGenerator.cs">
+      <Link>IdGenerators\IIdGenerator.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\IdGenerators\TimestampId.cs">
+      <Link>IdGenerators\TimestampId.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Image\ImageHelper.cs">
+      <Link>Image\ImageHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\IO\ByteBuffer.cs">
+      <Link>IO\ByteBuffer.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\IO\CsvHelper.cs">
+      <Link>IO\CsvHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\IO\DirectoryHelper.cs">
+      <Link>IO\DirectoryHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\IO\Extensions\Stream\Extensions.Stream.cs">
+      <Link>IO\Extensions\Stream\Extensions.Stream.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\IO\Extensions\Stream\Extensions.Stream.Seek.cs">
+      <Link>IO\Extensions\Stream\Extensions.Stream.Seek.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\IO\FileHelper.Convert.cs">
+      <Link>IO\FileHelper.Convert.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\IO\FileHelper.cs">
+      <Link>IO\FileHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\IO\FileHelper.Info.cs">
+      <Link>IO\FileHelper.Info.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\IO\FileHelper.Load.cs">
+      <Link>IO\FileHelper.Load.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\IO\FileOperator.cs">
+      <Link>IO\FileOperator.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\IO\FileQueueHelper.cs">
+      <Link>IO\FileQueueHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\IO\FileUtil.cs">
+      <Link>IO\FileUtil.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\IO\FileUtil.Stream.Convert.cs">
+      <Link>IO\FileUtil.Stream.Convert.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\IO\FileWatcher.cs">
+      <Link>IO\FileWatcher.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\IO\IniAPI.cs">
+      <Link>IO\IniAPI.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\IO\IniFile.cs">
+      <Link>IO\IniFile.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Json\Converters\ChinaDateTimeConverter.cs">
+      <Link>Json\Converters\ChinaDateTimeConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Json\Converters\CustomDateFormatConverter.cs">
+      <Link>Json\Converters\CustomDateFormatConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Json\Converters\DataSetConverter.cs">
+      <Link>Json\Converters\DataSetConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Json\Converters\DataTableConverter.cs">
+      <Link>Json\Converters\DataTableConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Json\Converters\Internals\DataRowConverter.cs">
+      <Link>Json\Converters\Internals\DataRowConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Json\Converters\LongToStringConverter.cs">
+      <Link>Json\Converters\LongToStringConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Json\Converters\TrimmingConverter.cs">
+      <Link>Json\Converters\TrimmingConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Json\JsonExtension.cs">
+      <Link>Json\JsonExtension.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Json\JsonExtensions.cs">
+      <Link>Json\JsonExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Json\JsonFormater.cs">
+      <Link>Json\JsonFormater.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Json\JsonHelper.cs">
+      <Link>Json\JsonHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Judgments\CollectionJudgment.cs">
+      <Link>Judgments\CollectionJudgment.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Judgments\DateTimeJudgment.cs">
+      <Link>Judgments\DateTimeJudgment.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Judgments\GuidJudgment.cs">
+      <Link>Judgments\GuidJudgment.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Judgments\QueryableJudgment.cs">
+      <Link>Judgments\QueryableJudgment.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Judgments\RegexJudgment.cs">
+      <Link>Judgments\RegexJudgment.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Judgments\StringJudgment.cs">
+      <Link>Judgments\StringJudgment.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Judgments\TypeJudgment.cs">
+      <Link>Judgments\TypeJudgment.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Logging\ILog.cs">
+      <Link>Logging\ILog.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Logging\ILogger.cs">
+      <Link>Logging\ILogger.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Logging\ILoggerAdapter.cs">
+      <Link>Logging\ILoggerAdapter.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Logging\InternalLogger.cs">
+      <Link>Logging\InternalLogger.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Logging\Log.cs">
+      <Link>Logging\Log.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Logging\LogBase.cs">
+      <Link>Logging\LogBase.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Logging\LogerImp.cs">
+      <Link>Logging\LogerImp.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Logging\LoggerAdapterBase.cs">
+      <Link>Logging\LoggerAdapterBase.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Logging\LoggerAdapterImp.cs">
+      <Link>Logging\LoggerAdapterImp.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Logging\LogLevel.cs">
+      <Link>Logging\LogLevel.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Logging\LogManager.cs">
+      <Link>Logging\LogManager.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Maths\UnitConv.cs">
+      <Link>Maths\UnitConv.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Numeric\Extensions\Extensions.Numeric.cs">
+      <Link>Numeric\Extensions\Extensions.Numeric.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Numeric\Extensions\Extensions.Numeric.Precision.cs">
+      <Link>Numeric\Extensions\Extensions.Numeric.Precision.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Numeric\NumberConst.cs">
+      <Link>Numeric\NumberConst.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Numeric\Numbers.cs">
+      <Link>Numeric\Numbers.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Pipe\BasicPipe.cs">
+      <Link>Pipe\BasicPipe.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Pipe\ClientPipe.cs">
+      <Link>Pipe\ClientPipe.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Pipe\PipeClient.cs">
+      <Link>Pipe\PipeClient.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Pipe\PipeEventArgs.cs">
+      <Link>Pipe\PipeEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Pipe\PipeServer.cs">
+      <Link>Pipe\PipeServer.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Pipe\ServerPipe.cs">
+      <Link>Pipe\ServerPipe.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Randoms\GuidRandomGenerator.cs">
+      <Link>Randoms\GuidRandomGenerator.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Randoms\IRandomGenerator.cs">
+      <Link>Randoms\IRandomGenerator.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Randoms\Random.cs">
+      <Link>Randoms\Random.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Randoms\RandomBuilder.cs">
+      <Link>Randoms\RandomBuilder.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Randoms\StubRandomGenerator.cs">
+      <Link>Randoms\StubRandomGenerator.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Reflection\ReflectionHelper.cs">
+      <Link>Reflection\ReflectionHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Reflection\Reflections.Assembly.cs">
+      <Link>Reflection\Reflections.Assembly.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Reflection\Reflections.cs">
+      <Link>Reflection\Reflections.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Reflection\Reflections.Description.cs">
+      <Link>Reflection\Reflections.Description.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Reflection\Reflections.Types.cs">
+      <Link>Reflection\Reflections.Types.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Reflection\Types.cs">
+      <Link>Reflection\Types.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Serialize\Serialize.cs">
+      <Link>Serialize\Serialize.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Serialize\SerializerHelper.cs">
+      <Link>Serialize\SerializerHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Text\CString\Str.Builder.cs">
+      <Link>Text\CString\Str.Builder.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Text\CString\Str.cs">
+      <Link>Text\CString\Str.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Text\Extensions\Regex\Extensions.Regex.Match.cs">
+      <Link>Text\Extensions\Regex\Extensions.Regex.Match.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Text\Extensions\StringBuilder\Extensions.StringBuilder.Append.cs">
+      <Link>Text\Extensions\StringBuilder\Extensions.StringBuilder.Append.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Text\Extensions\StringBuilder\Extensions.StringBuilder.Reverse.cs">
+      <Link>Text\Extensions\StringBuilder\Extensions.StringBuilder.Reverse.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Text\Extensions\StringBuilder\Extensions.StringBuilder.Substring.cs">
+      <Link>Text\Extensions\StringBuilder\Extensions.StringBuilder.Substring.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Text\Extensions\StringBuilder\Extensions.StringBuilder.To.CharArray.cs">
+      <Link>Text\Extensions\StringBuilder\Extensions.StringBuilder.To.CharArray.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Text\Extensions\StringBuilder\Extensions.StringBuilder.To.cs">
+      <Link>Text\Extensions\StringBuilder\Extensions.StringBuilder.To.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Text\Extensions\StringBuilder\Extensions.StringBuilder.Trim.cs">
+      <Link>Text\Extensions\StringBuilder\Extensions.StringBuilder.Trim.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Text\Extensions\String\Extensions.String.Byte.cs">
+      <Link>Text\Extensions\String\Extensions.String.Byte.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Text\Extensions\String\Extensions.String.Case.cs">
+      <Link>Text\Extensions\String\Extensions.String.Case.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Text\Extensions\String\Extensions.String.Contains.cs">
+      <Link>Text\Extensions\String\Extensions.String.Contains.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Text\Extensions\String\Extensions.String.Count.cs">
+      <Link>Text\Extensions\String\Extensions.String.Count.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Text\Extensions\String\Extensions.String.cs">
+      <Link>Text\Extensions\String\Extensions.String.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Text\Extensions\String\Extensions.String.Diff.cs">
+      <Link>Text\Extensions\String\Extensions.String.Diff.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Text\Extensions\String\Extensions.String.Digits.cs">
+      <Link>Text\Extensions\String\Extensions.String.Digits.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Text\Extensions\String\Extensions.String.EndsWith.cs">
+      <Link>Text\Extensions\String\Extensions.String.EndsWith.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Text\Extensions\String\Extensions.String.Equals.cs">
+      <Link>Text\Extensions\String\Extensions.String.Equals.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Text\Extensions\String\Extensions.String.Fill.cs">
+      <Link>Text\Extensions\String\Extensions.String.Fill.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Text\Extensions\String\Extensions.String.From.cs">
+      <Link>Text\Extensions\String\Extensions.String.From.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Text\Extensions\String\Extensions.String.Index.cs">
+      <Link>Text\Extensions\String\Extensions.String.Index.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Text\Extensions\String\Extensions.String.LeftAndRight.cs">
+      <Link>Text\Extensions\String\Extensions.String.LeftAndRight.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Text\Extensions\String\Extensions.String.Letters.cs">
+      <Link>Text\Extensions\String\Extensions.String.Letters.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Text\Extensions\String\Extensions.String.Remove.cs">
+      <Link>Text\Extensions\String\Extensions.String.Remove.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Text\Extensions\String\Extensions.String.Replace.cs">
+      <Link>Text\Extensions\String\Extensions.String.Replace.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Text\Extensions\String\Extensions.String.Similarity.cs">
+      <Link>Text\Extensions\String\Extensions.String.Similarity.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Text\Extensions\String\Extensions.String.StartsWith.cs">
+      <Link>Text\Extensions\String\Extensions.String.StartsWith.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Text\Extensions\String\Extensions.String.Substring.cs">
+      <Link>Text\Extensions\String\Extensions.String.Substring.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Text\Extensions\String\Extensions.String.Trim.cs">
+      <Link>Text\Extensions\String\Extensions.String.Trim.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Text\Extensions\String\Extensions.String.Truncate.cs">
+      <Link>Text\Extensions\String\Extensions.String.Truncate.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Text\Extensions\String\StringExtensions.Convert.cs">
+      <Link>Text\Extensions\String\StringExtensions.Convert.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Text\Extensions\String\StringExtensions.cs">
+      <Link>Text\Extensions\String\StringExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Text\Extensions\String\StringExtensions.Format.cs">
+      <Link>Text\Extensions\String\StringExtensions.Format.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Text\Extensions\String\StringExtensions.Regex.cs">
+      <Link>Text\Extensions\String\StringExtensions.Regex.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Text\Extensions\String\StringExtensions.Safe.cs">
+      <Link>Text\Extensions\String\StringExtensions.Safe.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Text\Extensions\String\StringExtensions.Validation.cs">
+      <Link>Text\Extensions\String\StringExtensions.Validation.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Text\WString\Str.cs">
+      <Link>Text\WString\Str.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Text\WString\Str.Util.cs">
+      <Link>Text\WString\Str.Util.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Threading\Asyncs\AsyncLock.cs">
+      <Link>Threading\Asyncs\AsyncLock.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Threading\Asyncs\AsyncSemaphore.cs">
+      <Link>Threading\Asyncs\AsyncSemaphore.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Threading\Locks\ReaderWriteLockDisposable.cs">
+      <Link>Threading\Locks\ReaderWriteLockDisposable.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Threading\Locks\ReaderWriteLockType.cs">
+      <Link>Threading\Locks\ReaderWriteLockType.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Threading\Thread.cs">
+      <Link>Threading\Thread.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Threading\ThreadUtil.cs">
+      <Link>Threading\ThreadUtil.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Common\AttributeUtil.cs">
+      <Link>Utils\Common\AttributeUtil.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Common\ByteUtil.cs">
+      <Link>Utils\Common\ByteUtil.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Common\DeepCopy.cs">
+      <Link>Utils\Common\DeepCopy.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Common\EnumHelper.cs">
+      <Link>Utils\Common\EnumHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Common\EnumUtil.cs">
+      <Link>Utils\Common\EnumUtil.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Common\GuidUtil.cs">
+      <Link>Utils\Common\GuidUtil.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Common\MoneyUtil.cs">
+      <Link>Utils\Common\MoneyUtil.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Common\OrderByAttribute.cs">
+      <Link>Utils\Common\OrderByAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Common\SerializeUtil.cs">
+      <Link>Utils\Common\SerializeUtil.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Common\TimeUtil.cs">
+      <Link>Utils\Common\TimeUtil.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Common\TypeUtil.cs">
+      <Link>Utils\Common\TypeUtil.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Conversions\IConversionImpl.cs">
+      <Link>Utils\Conversions\IConversionImpl.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Conversions\IConversionTry.cs">
+      <Link>Utils\Conversions\IConversionTry.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Conversions\Internals\EncodingHelper.cs">
+      <Link>Utils\Conversions\Internals\EncodingHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Conversions\Internals\Helper.cs">
+      <Link>Utils\Conversions\Internals\Helper.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Conversions\Internals\StringBooleanHelper.cs">
+      <Link>Utils\Conversions\Internals\StringBooleanHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Conversions\Internals\StringByteHelper.cs">
+      <Link>Utils\Conversions\Internals\StringByteHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Conversions\Internals\StringCharHelper.cs">
+      <Link>Utils\Conversions\Internals\StringCharHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Conversions\Internals\StringIpAddressHelper.cs">
+      <Link>Utils\Conversions\Internals\StringIpAddressHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Conversions\Internals\StringLongHelper.cs">
+      <Link>Utils\Conversions\Internals\StringLongHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Conversions\Internals\StringSByteHelper.cs">
+      <Link>Utils\Conversions\Internals\StringSByteHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Conversions\Internals\StringShortHelper.cs">
+      <Link>Utils\Conversions\Internals\StringShortHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Conversions\Internals\StringTimeSpanExactHelper.cs">
+      <Link>Utils\Conversions\Internals\StringTimeSpanExactHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Conversions\Internals\StringTimeSpanHelper.cs">
+      <Link>Utils\Conversions\Internals\StringTimeSpanHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Conversions\Internals\StringUIntHelper.cs">
+      <Link>Utils\Conversions\Internals\StringUIntHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Conversions\Internals\StringULongHelper.cs">
+      <Link>Utils\Conversions\Internals\StringULongHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Conversions\Internals\StringUShortHelper.cs">
+      <Link>Utils\Conversions\Internals\StringUShortHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Conversions\Internals\StringVersionHelper.cs">
+      <Link>Utils\Conversions\Internals\StringVersionHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Conversions\Scale\BinaryConversion.cs">
+      <Link>Utils\Conversions\Scale\BinaryConversion.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Conversions\Scale\BytesConversion.cs">
+      <Link>Utils\Conversions\Scale\BytesConversion.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Conversions\Scale\DecimalismConversion.cs">
+      <Link>Utils\Conversions\Scale\DecimalismConversion.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Conversions\Scale\HexadecimalConversion.cs">
+      <Link>Utils\Conversions\Scale\HexadecimalConversion.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Date\Chinese\ChineseAnimalHelper.cs">
+      <Link>Utils\Date\Chinese\ChineseAnimalHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Date\Chinese\ChineseConstellationHelper.cs">
+      <Link>Utils\Date\Chinese\ChineseConstellationHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Date\DateInfo.cs">
+      <Link>Utils\Date\DateInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Date\DateTimeFactory.cs">
+      <Link>Utils\Date\DateTimeFactory.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Develops\CodeRamer.cs">
+      <Link>Utils\Develops\CodeRamer.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Develops\CodeTimer.cs">
+      <Link>Utils\Develops\CodeTimer.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Develops\UnitTester.cs">
+      <Link>Utils\Develops\UnitTester.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Files\DefaultFileStore.cs">
+      <Link>Utils\Files\DefaultFileStore.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Files\FileInfo.cs">
+      <Link>Utils\Files\FileInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Files\FileSize.cs">
+      <Link>Utils\Files\FileSize.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Files\FileSizeUnit.cs">
+      <Link>Utils\Files\FileSizeUnit.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Files\IFileStore.cs">
+      <Link>Utils\Files\IFileStore.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Files\Paths\DefaultBasePath.cs">
+      <Link>Utils\Files\Paths\DefaultBasePath.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Files\Paths\DefaultPathGenerator.cs">
+      <Link>Utils\Files\Paths\DefaultPathGenerator.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Files\Paths\IBasePath.cs">
+      <Link>Utils\Files\Paths\IBasePath.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Files\Paths\IPathGenerator.cs">
+      <Link>Utils\Files\Paths\IPathGenerator.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Files\Paths\PathGeneratorBase.cs">
+      <Link>Utils\Files\Paths\PathGeneratorBase.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Maths\HexConv.cs">
+      <Link>Utils\Maths\HexConv.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Maths\MathEvaluator.cs">
+      <Link>Utils\Maths\MathEvaluator.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Maths\MathHelper.cs">
+      <Link>Utils\Maths\MathHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Maths\TemperatureConv.cs">
+      <Link>Utils\Maths\TemperatureConv.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Parameters\Formats\IParameterFormat.cs">
+      <Link>Utils\Parameters\Formats\IParameterFormat.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Parameters\Formats\ParameterFormatBase.cs">
+      <Link>Utils\Parameters\Formats\ParameterFormatBase.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Parameters\Formats\UrlParameterFormat.cs">
+      <Link>Utils\Parameters\Formats\UrlParameterFormat.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Parameters\IParameterManager.cs">
+      <Link>Utils\Parameters\IParameterManager.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Parameters\ParameterBuilder.cs">
+      <Link>Utils\Parameters\ParameterBuilder.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Parameters\Parsers\IParameterParser.cs">
+      <Link>Utils\Parameters\Parsers\IParameterParser.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Parameters\Parsers\IParameterParserFactory.cs">
+      <Link>Utils\Parameters\Parsers\IParameterParserFactory.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Parameters\Parsers\JsonParameterParser.cs">
+      <Link>Utils\Parameters\Parsers\JsonParameterParser.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Parameters\Parsers\JsonpParameterParser.cs">
+      <Link>Utils\Parameters\Parsers\JsonpParameterParser.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Parameters\Parsers\ParameterParserBase.cs">
+      <Link>Utils\Parameters\Parsers\ParameterParserBase.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Parameters\Parsers\ParameterParserFactory.cs">
+      <Link>Utils\Parameters\Parsers\ParameterParserFactory.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Parameters\Parsers\ParameterParserType.cs">
+      <Link>Utils\Parameters\Parsers\ParameterParserType.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Utils\Parameters\Parsers\UrlParameterParser.cs">
+      <Link>Utils\Parameters\Parsers\UrlParameterParser.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Xml\DynamicBuilder\ChildXmlNodesBuilder.cs">
+      <Link>Xml\DynamicBuilder\ChildXmlNodesBuilder.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Xml\DynamicBuilder\XmlBuilder.cs">
+      <Link>Xml\DynamicBuilder\XmlBuilder.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Xml\DynamicBuilder\XmlNodeBuilder.cs">
+      <Link>Xml\DynamicBuilder\XmlNodeBuilder.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Xml\Id.cs">
+      <Link>Xml\Id.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Xml\Xml.Builder.cs">
+      <Link>Xml\Xml.Builder.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Xml\Xml.Tools.cs">
+      <Link>Xml\Xml.Tools.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Xml\XMLCheck.cs">
+      <Link>Xml\XMLCheck.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Xml\XmlHelper.cs">
+      <Link>Xml\XmlHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Xml\XMLOperator.cs">
+      <Link>Xml\XMLOperator.cs</Link>
+    </Compile>
+    <Compile Include="..\wjw.helper.core\Xml\XMLSerializer.cs">
+      <Link>Xml\XMLSerializer.cs</Link>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registry\RegistryEnum.cs" />
+    <Compile Include="Registry\RegistryHelper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net461\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

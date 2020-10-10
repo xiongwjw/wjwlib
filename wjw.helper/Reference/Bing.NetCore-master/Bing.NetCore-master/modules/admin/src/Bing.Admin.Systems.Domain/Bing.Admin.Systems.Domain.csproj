@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Bing.Admin.Commons.Domain\Bing.Admin.Commons.Domain.csproj" />
+    <ProjectReference Include="..\Bing.Admin.Domain.Shared\Bing.Admin.Domain.Shared.csproj" />
+    <ProjectReference Include="..\Bing.Admin.Infrastructure\Bing.Admin.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Models/Administrator.*.cs">
+      <DependentUpon>Administrator.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Models/Application.*.cs">
+      <DependentUpon>Application.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Models/Permission.*.cs">
+      <DependentUpon>Permission.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Models/Resource.*.cs">
+      <DependentUpon>Resource.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Models/Role.*.cs">
+      <DependentUpon>Role.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Models/User.*.cs">
+      <DependentUpon>User.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Models/UserLoginLog.*.cs">
+      <DependentUpon>UserLoginLog.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Models/UserRole.*.cs">
+      <DependentUpon>UserRole.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+</Project>
